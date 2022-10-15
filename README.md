@@ -5,5 +5,5 @@ This package enables YUM and DNF access to the Leaf Linux ICAPSQL online Reposit
 YUM/DNF repository sources and binaries for the C-ICAP Project and ICAPSQL Project for Red Hat Enterprise Linux, CentOS, AWS Linux, and Oracle Linux 
 distributions.
 
-The respository is available online at [https://repo.icapsql.com](https://repo.icapsql.com).  The repository is currently a work in progress.
+The repository is available online at [https://repo.icapsql.com](https://repo.icapsql.com).  The repository is currently a work in progress.
 
