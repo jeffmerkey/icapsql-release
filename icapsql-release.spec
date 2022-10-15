@@ -16,6 +16,7 @@ BuildArch:      noarch
 This package contains the ICAPSQL Enterprise Linux repository
 GPG key as well as ICAPSQL Repository configuration for dnf/yum.
 
+
 %prep
 %setup -q -c -T
 
