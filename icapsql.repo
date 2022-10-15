@@ -1,0 +1,29 @@
+
+[icapsql-repositories]
+name=Enterprise Linux $releasever ICAPSQL - Repositories 
+baseurl=http://repo.icapsql.com/public/RedHat/Releases/
+enabled=1
+gpgcheck=0
+gpgkey=http://repo.icapsql.com/REPO-GPG-KEY-icapsql
+
+[icapsql-arch]
+name=Enterprise Linux $releasever ICAPSQL - $basearch
+baseurl=http://repo.icapsql.com/public/RedHat/el$releasever/RPMS/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=http://repo.icapsql.com/REPO-GPG-KEY-icapsql
+
+[icapsql-noarch]
+name=Enterprise Linux $releasever ICAPSQL - noarch
+baseurl=http://repo.icapsql.com/public/RedHat/el$releasever/RPMS/noarch/
+enabled=1
+gpgcheck=1
+gpgkey=http://repo.icapsql.com/REPO-GPG-KEY-icapsql
+
+[icapsql-source]
+name=Enterprise Linux $releasever ICAPSQL - Source
+baseurl=http://repo.icapsql.com/public/RedHat/el$releasever/SRPMS/
+enabled=1
+gpgcheck=1
+gpgkey=http://repo.icapsql.com/REPO-GPG-KEY-icapsql
+
